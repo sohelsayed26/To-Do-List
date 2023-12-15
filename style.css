@@ -123,3 +123,29 @@ ul li span{
 ul li span:hover{
     background: #edeef0;
 }
+
+@media only screen and (max-width: 600px) {
+    .to-do-app {
+        margin: 50px auto 20px;
+        padding: 20px;
+    }
+
+    .row {
+        flex-direction: column;
+        padding-left: 0;
+    }
+
+    input {
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    button{
+        width: 35%;
+        margin: 2px;
+    }
+
+    #clearx{
+        border-radius: 40px;
+    }
+}
